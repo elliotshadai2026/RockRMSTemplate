@@ -1,6 +1,134 @@
 <!DOCTYPE html>
-<html>
-<body style="font-family:Arial;">
- <h1>Hello, this is RockRMSTemplate!</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockRMS Template Repository</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .jumbotron {
+            background: linear-gradient(135deg, #0d6efd 0%, #ee7625 100%);
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .theme-card {
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: white;
+            transition: transform 0.3s;
+        }
+        .theme-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+        .btn-orange {
+            background-color: #ee7625;
+            border-color: #ee7625;
+            color: white;
+        }
+        .btn-orange:hover {
+            background-color: #d8691f;
+            border-color: #d8691f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1><i class="fa fa-cube"></i> RockRMS Template Repository</h1>
+            <p class="lead">Custom themes and templates for RockRMS church management system</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="theme-card">
+                    <h2><i class="fa fa-paint-brush"></i> BBCC RockRMS Theme</h2>
+                    <p class="text-muted">Mobile-first theme with blue navigation and BBCC branding</p>
+                    
+                    <h4>Features:</h4>
+                    <ul>
+                        <li><strong>Blue Navigation Background</strong> - #0d6efd (BBCC Blue)</li>
+                        <li><strong>Spark Theme Foundation</strong> - Built on Spark theme as starting point</li>
+                        <li><strong>RockRMS Spec Compliant</strong> - Bootstrap 3.4.1, Font Awesome 4.7.0</li>
+                        <li><strong>Mobile First Design</strong> - Responsive layout with hamburger menu</li>
+                        <li><strong>BBCC Branding</strong> - Church colors and logo integration</li>
+                    </ul>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Preview Links:</h5>
+                            <div class="btn-group">
+                                <a href="bbcc-rockrms-theme.html" class="btn btn-primary">
+                                    <i class="fa fa-eye"></i> View Theme Preview
+                                </a>
+                                <a href="https://github.com/elliotshadai2026/RockRMSTemplate/blob/main/bbcc-rockrms-theme.html" 
+                                   class="btn btn-default" target="_blank">
+                                    <i class="fa fa-code"></i> View Source
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>GitHub:</h5>
+                            <a href="https://github.com/elliotshadai2026/RockRMSTemplate" 
+                               class="btn btn-orange" target="_blank">
+                                <i class="fa fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="theme-card">
+                    <h4><i class="fa fa-mobile"></i> Mobile Features</h4>
+                    <ul>
+                        <li>Hamburger menu for mobile navigation</li>
+                        <li>Responsive sidebar with smooth animations</li>
+                        <li>Touch-friendly buttons and controls</li>
+                        <li>Optimized for tablets and phones</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="theme-card">
+                    <h4><i class="fa fa-palette"></i> Color Scheme</h4>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div style="background:#0d6efd; color:white; padding:10px; border-radius:5px; margin-bottom:5px;">
+                                <strong>Blue:</strong> #0d6efd
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div style="background:#ee7625; color:white; padding:10px; border-radius:5px; margin-bottom:5px;">
+                                <strong>Orange:</strong> #ee7625
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center" style="margin-top: 30px; padding: 20px; border-top: 1px solid #dee2e6;">
+            <p class="text-muted">
+                <i class="fa fa-code"></i> Built for Boynton Beach Community Church (BBCC) RockRMS Implementation
+            </p>
+        </div>
+    </div>
 </body>
 </html>
